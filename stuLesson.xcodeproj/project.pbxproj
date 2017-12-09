@@ -9,13 +9,11 @@
 /* Begin PBXBuildFile section */
 		9A0B44571F15F96200AB51E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B44561F15F96200AB51E8 /* main.m */; };
 		9A0B445A1F15F96200AB51E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B44591F15F96200AB51E8 /* AppDelegate.m */; };
-		9A0B44601F15F96200AB51E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0B445E1F15F96200AB51E8 /* Main.storyboard */; };
 		9A0B44631F15F96200AB51E8 /* stuLesson.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B44611F15F96200AB51E8 /* stuLesson.xcdatamodeld */; };
 		9A0B44651F15F96300AB51E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A0B44641F15F96200AB51E8 /* Assets.xcassets */; };
 		9A0B44681F15F96300AB51E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0B44661F15F96300AB51E8 /* LaunchScreen.storyboard */; };
 		9A0B44731F15F96300AB51E8 /* stuLessonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B44721F15F96300AB51E8 /* stuLessonTests.m */; };
 		9A0B447E1F15F96300AB51E8 /* stuLessonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B447D1F15F96300AB51E8 /* stuLessonUITests.m */; };
-		9A9F62CC1F1611FE003F03F5 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9F62CB1F1611FE003F03F5 /* TestViewController.m */; };
 		B3B65F206E7C1A2DC68EB3C7 /* Pods_stuLesson.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CB8AAF9192CC7ED5171C181 /* Pods_stuLesson.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,7 +41,6 @@
 		9A0B44561F15F96200AB51E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9A0B44581F15F96200AB51E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9A0B44591F15F96200AB51E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9A0B445F1F15F96200AB51E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A0B44621F15F96200AB51E8 /* stuLesson.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = stuLesson.xcdatamodel; sourceTree = "<group>"; };
 		9A0B44641F15F96200AB51E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A0B44671F15F96300AB51E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,8 +51,6 @@
 		9A0B44791F15F96300AB51E8 /* stuLessonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stuLessonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A0B447D1F15F96300AB51E8 /* stuLessonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = stuLessonUITests.m; sourceTree = "<group>"; };
 		9A0B447F1F15F96300AB51E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9A9F62CA1F1611FE003F03F5 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
-		9A9F62CB1F1611FE003F03F5 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		9A9F62CD1F161504003F03F5 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "Pods/../build/Debug-iphoneos/AFNetworking/AFNetworking.framework"; sourceTree = "<group>"; };
 		9CB8AAF9192CC7ED5171C181 /* Pods_stuLesson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_stuLesson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -144,10 +139,8 @@
 				1BCA16421FDC26B6000B8D2F /* Controller */,
 				1BCA16411FDC26AD000B8D2F /* View */,
 				1BCA16401FDC269D000B8D2F /* Model */,
-				9A9F62C91F1611DB003F03F5 /* test */,
 				9A0B44581F15F96200AB51E8 /* AppDelegate.h */,
 				9A0B44591F15F96200AB51E8 /* AppDelegate.m */,
-				9A0B445E1F15F96200AB51E8 /* Main.storyboard */,
 				9A0B44641F15F96200AB51E8 /* Assets.xcassets */,
 				9A0B44661F15F96300AB51E8 /* LaunchScreen.storyboard */,
 				9A0B44691F15F96300AB51E8 /* Info.plist */,
@@ -181,15 +174,6 @@
 				9A0B447F1F15F96300AB51E8 /* Info.plist */,
 			);
 			path = stuLessonUITests;
-			sourceTree = "<group>";
-		};
-		9A9F62C91F1611DB003F03F5 /* test */ = {
-			isa = PBXGroup;
-			children = (
-				9A9F62CA1F1611FE003F03F5 /* TestViewController.h */,
-				9A9F62CB1F1611FE003F03F5 /* TestViewController.m */,
-			);
-			name = test;
 			sourceTree = "<group>";
 		};
 		D734C64F248AD4A570473A26 /* Pods */ = {
@@ -312,7 +296,6 @@
 			files = (
 				9A0B44681F15F96300AB51E8 /* LaunchScreen.storyboard in Resources */,
 				9A0B44651F15F96300AB51E8 /* Assets.xcassets in Resources */,
-				9A0B44601F15F96200AB51E8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,9 +322,14 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-stuLesson/Pods-stuLesson-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/SDAutoLayout/SDAutoLayout.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDAutoLayout.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -369,13 +357,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-stuLesson-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -387,7 +378,6 @@
 			files = (
 				9A0B445A1F15F96200AB51E8 /* AppDelegate.m in Sources */,
 				9A0B44631F15F96200AB51E8 /* stuLesson.xcdatamodeld in Sources */,
-				9A9F62CC1F1611FE003F03F5 /* TestViewController.m in Sources */,
 				9A0B44571F15F96200AB51E8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,14 +414,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9A0B445E1F15F96200AB51E8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9A0B445F1F15F96200AB51E8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9A0B44661F15F96300AB51E8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
