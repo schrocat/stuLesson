@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B1934A11FDCD1A800601679 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1934A01FDCD1A800601679 /* MainViewController.m */; };
+		1B1934A61FDCD89300601679 /* SLBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1934A51FDCD89300601679 /* SLBaseCell.m */; };
 		1BCA16481FDC39D7000B8D2F /* SLHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BCA16471FDC39D7000B8D2F /* SLHelpViewController.m */; };
 		9A0B44571F15F96200AB51E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B44561F15F96200AB51E8 /* main.m */; };
 		9A0B445A1F15F96200AB51E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B44591F15F96200AB51E8 /* AppDelegate.m */; };
@@ -37,6 +39,11 @@
 
 /* Begin PBXFileReference section */
 		002D1AF685F2EB1F4E684510 /* Pods-stuLesson.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stuLesson.release.xcconfig"; path = "Pods/Target Support Files/Pods-stuLesson/Pods-stuLesson.release.xcconfig"; sourceTree = "<group>"; };
+		1B19349F1FDCD1A800601679 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		1B1934A01FDCD1A800601679 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		1B1934A21FDCD42300601679 /* stuLesson-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "stuLesson-prefix.pch"; sourceTree = "<group>"; };
+		1B1934A41FDCD89300601679 /* SLBaseCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLBaseCell.h; sourceTree = "<group>"; };
+		1B1934A51FDCD89300601679 /* SLBaseCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLBaseCell.m; sourceTree = "<group>"; };
 		1BCA16461FDC39D7000B8D2F /* SLHelpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLHelpViewController.h; sourceTree = "<group>"; };
 		1BCA16471FDC39D7000B8D2F /* SLHelpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLHelpViewController.m; sourceTree = "<group>"; };
 		73AB09C62C41224E62CBDBE6 /* Pods-stuLesson.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stuLesson.debug.xcconfig"; path = "Pods/Target Support Files/Pods-stuLesson/Pods-stuLesson.debug.xcconfig"; sourceTree = "<group>"; };
@@ -84,6 +91,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B1934A31FDCD86D00601679 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1B1934A41FDCD89300601679 /* SLBaseCell.h */,
+				1B1934A51FDCD89300601679 /* SLBaseCell.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		1B1934A71FDCDA2800601679 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				1BCA16461FDC39D7000B8D2F /* SLHelpViewController.h */,
+				1BCA16471FDC39D7000B8D2F /* SLHelpViewController.m */,
+			);
+			name = Help;
+			sourceTree = "<group>";
+		};
 		1BCA16401FDC269D000B8D2F /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -101,8 +126,7 @@
 		1BCA16421FDC26B6000B8D2F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				1BCA16461FDC39D7000B8D2F /* SLHelpViewController.h */,
-				1BCA16471FDC39D7000B8D2F /* SLHelpViewController.m */,
+				1B1934A71FDCDA2800601679 /* Help */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -141,6 +165,7 @@
 		9A0B44541F15F96200AB51E8 /* stuLesson */ = {
 			isa = PBXGroup;
 			children = (
+				1B1934A31FDCD86D00601679 /* Common */,
 				1BCA16421FDC26B6000B8D2F /* Controller */,
 				1BCA16411FDC26AD000B8D2F /* View */,
 				1BCA16401FDC269D000B8D2F /* Model */,
@@ -151,6 +176,8 @@
 				9A0B44691F15F96300AB51E8 /* Info.plist */,
 				9A0B44611F15F96200AB51E8 /* stuLesson.xcdatamodeld */,
 				9A0B44551F15F96200AB51E8 /* Supporting Files */,
+				1B19349F1FDCD1A800601679 /* MainViewController.h */,
+				1B1934A01FDCD1A800601679 /* MainViewController.m */,
 			);
 			path = stuLesson;
 			sourceTree = "<group>";
@@ -159,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				9A0B44561F15F96200AB51E8 /* main.m */,
+				1B1934A21FDCD42300601679 /* stuLesson-prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -385,6 +413,8 @@
 				1BCA16481FDC39D7000B8D2F /* SLHelpViewController.m in Sources */,
 				9A0B445A1F15F96200AB51E8 /* AppDelegate.m in Sources */,
 				9A0B44631F15F96200AB51E8 /* stuLesson.xcdatamodeld in Sources */,
+				1B1934A61FDCD89300601679 /* SLBaseCell.m in Sources */,
+				1B1934A11FDCD1A800601679 /* MainViewController.m in Sources */,
 				9A0B44571F15F96200AB51E8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -532,6 +562,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos/AFNetworking",
 				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/xuehanyuan/Documents/stuLesson/stuLesson/stuLesson-prefix.pch";
 				INFOPLIST_FILE = stuLesson/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
@@ -550,6 +582,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos/AFNetworking",
 				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/xuehanyuan/Documents/stuLesson/stuLesson/stuLesson-prefix.pch";
 				INFOPLIST_FILE = stuLesson/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;

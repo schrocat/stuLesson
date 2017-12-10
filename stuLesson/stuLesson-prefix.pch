@@ -1,0 +1,16 @@
+//
+//  stuLesson-prefix.pch
+//  stuLesson
+//
+//  Created by 薛汉鎱 on 2017/12/10.
+//  Copyright © 2017年 com.yu. All rights reserved.
+//
+
+#ifndef stuLesson_prefix_pch
+#define stuLesson_prefix_pch
+#import <AFNetworking/AFNetworking.h>
+#import <SDAutoLayout/SDAutoLayout.h>
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* stuLesson_prefix_pch */
